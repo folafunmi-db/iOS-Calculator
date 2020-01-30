@@ -1,0 +1,17 @@
+.phone {
+  width: 275px;
+  margin: 100px auto;
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom: 2px;
+
+  /*Box shadow takes in 6 values: 
+    horizontal offset, vertical offset, blur, spread, color, inset
+    
+    For horizontal and vertical offset '%' cannot be used*/
+    box-shadow: 3px 2px #5e6266,
+                8px 5px 3px #000,
+                -2px 5px 3px #ccd3db,
+                -4px -2px 3px #333,
+                4px 2px 3px #ccc;
+}
